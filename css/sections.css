@@ -184,8 +184,9 @@
   font-family: var(--font-display);
   font-size: var(--text-hero);
   font-weight: 900;
-  line-height: 0.98; /* Menos que esto y la Ó choca con la línea de arriba */
+  line-height: 1.08; /* Deja aire a la tilde de la Ó y a la cola de la Q */
   text-transform: uppercase;
+  text-wrap: balance;
 }
 
 .hero__lead {
